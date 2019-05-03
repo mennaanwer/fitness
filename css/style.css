@@ -1,0 +1,238 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+#header{
+	background-image: url(assest/boxer-1984344_1920.jpg);
+	height: 80vh;
+	background-size: cover;
+	background-position: center;
+}
+.navbar-nav li a{
+	float:right;
+	color: #fff!important;
+} 
+.navbar-brand img{
+	width: 100px;
+	margin-left: 10px;
+}
+.navbar-toggler{
+	border: none!important;
+	outline: none!important;
+}
+nav button .fa-bars{
+	color: #fff;
+	font-size: 25px;
+}
+/*-------------welcome text----------------*/
+.welcome{
+	padding: 50px 70px;
+	margin-top: -140px;
+	background-color: #fff;
+	background-image: url(assest/welcbk-01.png);
+	box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.welcome h1{
+	color: #333;
+}
+.welcome .btn{
+	padding: 10px 30px;
+	border-radius: 30px;
+	color: #fff;
+	background-color: #013f7e;
+}
+.welcome .btn:hover{
+	color: #013f7e;
+	border-color: #013f7e;
+	background-color: #fff;
+}
+/*--------------about is-----------------*/
+#about{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+#about .col-md-6{
+	padding: 20px 10px;
+}
+#about h2{
+	padding: 20px ;
+}
+/*--------------about is-----------------*/
+#services{
+	background-color: #efefef;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+#services .col-md-4{
+	padding: 20px;
+}
+#services .col-md-4 h3{
+	padding: 5px;
+}
+#services .col-md-4 img{
+	width: 40%;
+	padding: 10px;
+}
+#services .col-md-4 p{
+	padding: 5px;
+	text-align: justify;
+}
+/*--------------features-----------------*/
+#features{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(assest/boxer-1984344_1920.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+}
+.features-box{
+	height: 120px;
+}
+.features-box .feature-left{
+	height: 120px;
+	width: 20%;
+	float: left;
+}
+.features-box .feature-left .fa{
+	margin-top: 25px;
+	font-size: 50px;
+}
+.features-box .feature-right{
+	height: 140px;
+	width: 80%;
+	float: left;
+	padding: 15px;
+}
+.features-box .feature-right h4{
+	padding-top: 10px;
+	padding-left: 15px;
+	text-align: left;
+}
+.features-box .feature-right p{
+	padding-left: 15px;
+	text-align: left;
+}
+/*--------------reviews-----------------*/
+#reviews {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+#reviews .col-md-4{
+	padding: 10px 30px;
+}
+#reviews img{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	margin-left: -30px;
+	margin-top: -40px;
+	border: 5px solid #fff;
+}
+.text {
+	font-size: 16px;
+	padding: 10px 10px 10px 30px;
+	border-radius: 10px;
+	box-shadow: 0 0 20px 1px rgba(0,0,0,0.2);
+}
+#reviews .fa-twitter{
+	color: #38a1f3;
+}
+#reviews h1{
+	margin-bottom: 20px;
+	color: #013f7e;
+}
+#reviews p{
+	padding-bottom: 30px;
+}
+/*--------------contect us-----------------*/
+.contact {
+	padding: 50px 20px;
+	background-color: #013f7e;
+	position: relative;
+	box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+/*	background-image: url(assest/contbk-01.png);*/
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-bottom: -160px;
+}
+.contact h1, .contact p{
+	color: #fff;
+}
+.contact .btn{
+	padding: 10px 30px;
+	border-radius: 30px;
+	color: #013f7e;
+	background-color: #fff;
+}
+.contact .btn:hover{
+	color: #fff;
+	border-color: #fff;
+	background-color: #013f7e;
+}
+.contact-us .fawry{
+	width: 20%;
+	padding: 10px 0px;
+}
+.contact-us .visa{
+	width: 15.5%;
+	padding: 11px;
+}
+.payment-method{
+	padding: 20px;
+	
+}
+.contact-us input{
+	padding: 5px;
+	margin: 10px;
+	text-align: center;
+	border-radius: 30px;
+	width: 70%;
+}
+/*--------------footer-----------------*/
+#footer{
+	margin-top: 80px;
+	padding: 100px;
+	background-color: #efefef;
+	color: #013f7e;
+}
+.footer-logo{
+	width: 80px;
+	margin-top: 25px;
+	margin-bottom: 15px;
+}
+#footer h1{
+	font-size: 15px;
+	text-align: left;
+	margin-top: 25px;
+	margin-bottom: 25pxl
+}
+#footer p{
+	font-size: 12px;
+	text-align: left;
+}
+#footer .city{
+	margin-left: 37px;
+}
+#footer .row .fa{
+	padding-right: 20px;
+	font-size: 15px;
+}
+#footer hr{
+	margin-top: 10px;
+}
+#footer .fa-copyright{
+	font-size: 17px;
+}
+#footer .copyright{
+	margin-bottom: -80px;
+	text-align: center;
+	font-size: 15px;
+}
+
